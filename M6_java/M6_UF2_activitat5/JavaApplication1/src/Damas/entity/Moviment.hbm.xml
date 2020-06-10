@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 04/03/2020 19:27:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Damas.entity.Moviment" table="moviment" catalog="damas" optimistic-lock="version">
+        <composite-id name="id" class="Damas.entity.MovimentId">
+            <key-property name="idPartida" type="int">
+                <column name="idPartida" />
+            </key-property>
+            <key-property name="numMoviment" type="int">
+                <column name="numMoviment" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="partida" class="Damas.entity.Partida" update="false" insert="false" fetch="select">
+            <column name="idPartida" not-null="true" />
+        </many-to-one>
+        <property name="taula" type="string">
+            <column name="taula" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

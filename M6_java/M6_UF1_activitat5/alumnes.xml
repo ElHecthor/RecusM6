@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alumnes>
+  <alumne id="1">
+	<nom>Alex</nom>
+	<cognom1>Grange</cognom1>
+	<cognom2>Borras</cognom2>
+	<notaUF>5</notaUF>	
+  </alumne>
+
+  
+
+  <alumne id="3">
+	<nom>Fede</nom>
+	<cognom1>Grange</cognom1>
+	<cognom2>Borras</cognom2>
+	<notaUF>4</notaUF>	  
+  </alumne>
+
+
+<alumne id="2"><nom>hector</nom><cognom1>navarrete</cognom1><cognom2>garcia</cognom2><notaFinal>7</notaFinal></alumne></alumnes>

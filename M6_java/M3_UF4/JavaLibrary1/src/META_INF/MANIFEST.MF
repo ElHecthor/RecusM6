@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Name: ElsMeusBeans/Producte.class
+Java-Bean: True
+
+Name: ElsMeusBeans/Comanda.class
+Java-Bean: True
+
+Name: ElsMeusBeans/Venda.class
+Java-Bean: True
+
+Name: ElsMeusBeans/BaseDades.class
+Java-Bean: True

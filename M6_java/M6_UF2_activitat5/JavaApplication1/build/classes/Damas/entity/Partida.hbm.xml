@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 04/03/2020 19:27:52 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Damas.entity.Partida" table="partida" catalog="damas" optimistic-lock="version">
+        <id name="idPartida" type="java.lang.Integer">
+            <column name="idPartida" />
+            <generator class="identity" />
+        </id>
+        <property name="horaInici" type="timestamp">
+            <column name="horaInici" length="19" not-null="true" />
+        </property>
+        <property name="numMoviments" type="int">
+            <column name="numMoviments" not-null="true" />
+        </property>
+        <property name="guanyador" type="string">
+            <column name="guanyador" not-null="true" />
+        </property>
+        <set name="moviments" table="moviment" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idPartida" not-null="true" />
+            </key>
+            <one-to-many class="Damas.entity.Moviment" />
+        </set>
+    </class>
+</hibernate-mapping>

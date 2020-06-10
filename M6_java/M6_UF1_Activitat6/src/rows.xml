@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rows>
+    <rows address="https://example.org/bell.php" id="kabnasdkjh" position="0" uuid="00000000-A836-0000-0BB5-F1A836CA7B2F">
+        <any>2019</any>
+        <recursos_captats_total>53124.12</recursos_captats_total>
+        <recursos_captats_via>3.945312412E7</recursos_captats_via>
+        <recursos_captats_via_no>1.6218273512E8</recursos_captats_via_no>
+        <universitat>UAB</universitat>
+    </rows>
+    <rows address="http://example.com/bit" id="dfsdfghfgdh" position="0" uuid="000A8360-0BB5-0000-0BB5-F1A836CA7B2F">
+        <any>2019</any>
+        <recursos_captats_total>163124.12</recursos_captats_total>
+        <recursos_captats_via>1.625312412E7</recursos_captats_via>
+        <recursos_captats_via_no>1.62123452412E9</recursos_captats_via_no>
+        <universitat>UB</universitat>
+    </rows>
+    <rows address="https://www.example.org/angle/base" id="dfghdfgh" position="0" uuid="00000000-0000-0000-0BB5-F1A836CA7B2F">
+        <any>2020</any>
+        <recursos_captats_total>162135.12</recursos_captats_total>
+        <recursos_captats_via>1.6218273512E8</recursos_captats_via>
+        <recursos_captats_via_no>3.945312412E7</recursos_captats_via_no>
+        <universitat>AB</universitat>
+    </rows>
+</rows>
